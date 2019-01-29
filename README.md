@@ -2,6 +2,37 @@
 
 This program will take 2D vesicle area measurements (e.g. output from [ImageJ](https://imagej.nih.gov/ij/)) and calculate 3D vesicle number densities, an important characteristic of multi-phase magma.
 
+## Usage
+
+Currently you must manually enter the paths to your input files, sample name, and clast vesicularity on lines 341 to 344 before running the program.
+
+## Requirements
+* [Python 3.7](https://www.python.org/)
+* [Matplotlib](https://matplotlib.org/users/installing.html)
+* [pandas](https://pandas.pydata.org/getpandas.html)
+
+## Input format
+
+The required inputs are two CSV files of image data and vesicle areas, clast vesicularity, and sample number. The column headings for the CSV files are described below and example data is provided with the program.
+
+#### Vesicle areas file
+This must be a CSV file with one column per image and the measured vesicle areas forming the rows. The column headings are the names of each image and must be without spaces. For the scanned images only the titles "scan" or "billet" are accepted. The remainder take the form like: 25a, 25b, 100aa, 100ab, 250aac, 250bba, etc. As long as the magnification goes first it does not matter what follows.
+
+#### Image data file
+
+This must be a CSV file with one column per parameter as follows:
+
+| Column heading | Description                                                 | Data type |
+|----------------|-------------------------------------------------------------|-----------|
+| image          | name of image (see areas file description)                  | string    |
+| scale_factor   | scale in pixels per millimetre                              | float     |
+| width          | width of image in pixels                                    | integer   |
+| height         | height of image in pixels                                   | integer   |
+| edge_grey      | edge vesicles mean grey-scale value from ImageJ<sup>*</sup> | integer   |
+| crystals_grey  | crystals mean grey-scale value from ImageJ<sup>*</sup>      | integer   |
+| vesicles_grey  | vesicles mean grey-scale value from ImageJ<sup>*</sup>      | integer   |
+<sup>* </sup>Documentation for this is in preparation
+
 ## References
 
 This method is based on the following research which is cited in relevant sections of the code:
