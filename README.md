@@ -31,6 +31,7 @@ This must be a CSV file with one column per parameter as follows:
 | edge_grey      | edge vesicles mean grey-scale value from ImageJ<sup>*</sup> | integer   |
 | crystals_grey  | crystals mean grey-scale value from ImageJ<sup>*</sup>      | integer   |
 | vesicles_grey  | vesicles mean grey-scale value from ImageJ<sup>*</sup>      | integer   |
+
 <sup>* </sup>Documentation for this is in preparation
 
 ## References
