@@ -340,5 +340,7 @@ def vsa_processor(input_areas, input_info, sample, clast_ves, plot=False,
 
 areas = pd.read_csv('TestData/sample_areas.csv')
 info = pd.read_csv('TestData/sample_info.csv')
-data = vsa_processor(input_areas=areas, input_info=info, sample='Test',
-                     clast_ves=74.6, save=True)
+sample = 'Test'
+clast_ves = 74.6
+data = vsa_processor(input_areas=areas, input_info=info, sample=sample,
+                     clast_ves=clast_ves, save=True)
