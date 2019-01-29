@@ -16,7 +16,7 @@ Currently you must manually enter the paths to your input files, sample name, an
 The required inputs are two CSV files of image data and vesicle areas, clast vesicularity, and sample number. The column headings for the CSV files are described below and example data is provided with the program.
 
 #### Vesicle areas file
-This must be a CSV file with one column per image and the measured vesicle areas forming the rows. The column headings are the names of each image and must be without spaces. For the scanned images only the titles "scan" or "billet" are accepted. The remainder take the form like: 25a, 25b, 100aa, 100ab, 250aac, 250bba, etc. As long as the magnification goes first it does not matter what follows.
+This must be a CSV file with one column per image and the measured vesicle areas forming the rows. The column headings are the names of each image and must be without spaces. For the scanned images only the titles *scan* or *billet* are accepted. The remainder take the form like: *25a*, *25b*, *100aa*, *100ab*, *250aac*, *250bba*, etc. As long as the magnification goes first it does not matter what follows.
 
 #### Image data file
 
