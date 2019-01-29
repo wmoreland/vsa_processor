@@ -1,6 +1,6 @@
 # Vesicle Size Analysis Processor
 
-This program will take vesicle area measurements (e.g. output from ImageJ) and calculate vesicle number densities, and important characteristic of foams.
+This program will take 2D vesicle area measurements (e.g. output from [ImageJ](https://imagej.nih.gov/ij/)) and calculate 3D vesicle number densities, an important characteristic of foams.
 
 ## References
 
