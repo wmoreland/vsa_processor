@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/167953851.svg)](https://zenodo.org/badge/latestdoi/167953851)
+
 # Vesicle Size Analysis Processor
 
 This program will take 2D vesicle area measurements (e.g. output from [ImageJ](https://imagej.nih.gov/ij/)) and calculate 3D vesicle number densities, an important characteristic of multi-phase magma.
