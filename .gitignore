@@ -1,2 +1,5 @@
 # Ignore all files in foobar directory
 foobar/
+
+# Ignore sample_data.npy file
+sample_data.npy
